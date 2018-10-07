@@ -12,20 +12,22 @@
 
 	sudo apt-get install sublime-text
 
-## 解决在Ubuntu下sublime不能输入中文的问题！ 
+## 解决在Ubuntu下sublime不能输入中文的问题
 	git clone https://github.com/lyfeyaj/sublime-text-imfix.git1
 
 	cd sublime-text-imfix && ./sublime-imfix 
 
 ## Package Control
 - 官方网站: [https://packagecontrol.io](https://packagecontrol.io/installation)
-- ctrl+\` 后输入一下命令安装 package control
+- ctrl+\` 后输入以下命令安装 package control
+	
 	`import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)`
 
 ## 破解
 - 选择 help-->enter license
 - 授权码
-	`----- BEGIN LICENSE -----
+	```
+	----- BEGIN LICENSE -----
 	sgbteam
 	Single User License
 	EA7E-1153259
@@ -37,7 +39,8 @@
 	20B3C4F1 E917B5B3 87C38D9C ACCE7DD8
 	5F7EF854 86B9743C FADC04AA FB0DA5C0
 	F913BE58 42FEA319 F954EFDD AE881E0B
-	------ END LICENSE ------`
+	------ END LICENSE ------
+	```
 - 出现以下信息说明授权码过期，需要重新寻找授权码
 	`That license key has been invalidated, due to being shared.
 	Please email sales@sublimetext.com to get your license key reissued.`
@@ -45,14 +48,16 @@
 ## 禁止自动更新
 - 设置 Preferences -> Settings-User
 - 添加 "update_check": false
-======================================================================================================
+---
 
 ## 汉化
 - Ctrl+Shift+P 输入 pcip 选择 `Package Control：Install Package`
 - 安装 `ChineseLocalizations`
 - 使用方式
-	`help--请使用主菜单的 帮助/Language 子菜单来切换语言。 目前支持 简体中文 繁体中文 日本語 德语 法语 俄语等。 
-	要换回英语不需要卸载本插件，请直接从菜单切换英文。`
+	```
+	help--请使用主菜单的 帮助/Language 子菜单来切换语言。 目前支持 简体中文 繁体中文 日本語 德语 法语 俄语等。 
+	要换回英语不需要卸载本插件，请直接从菜单切换英文。
+	```
 
 集合插件
 SideBarEnhancements 侧栏右键功能增强

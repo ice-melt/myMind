@@ -1,25 +1,18 @@
-# ubuntu装机之旅
+# Ubuntu 18.04 装机之旅
+## 前言
+
+又一次重新安装Ubuntu，想把装机过程的过程记录下来方便后续学习印证
+
 ## 安装Linux
+
 下载地址
+
 ## 安装搜狗输入法
 
 ## 安装sublime
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -1
 
-sudo apt-get install apt-transport-https1
+![这里应该插入链接](test)
 
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list1
-
-sudo apt-get update1
-
-sudo apt-get install sublime-text1
-
-执行完以上几步就安装成功了！接下来是解决在Ubuntu下sublime不能输入中文的问题！ 
-废话也不多说，按顺序执行以下命令！
-
-git clone https://github.com/lyfeyaj/sublime-text-imfix.git1
-
-cd sublime-text-imfix && ./sublime-imfix 
 ## 安装WPS
 =========================================================================================
 1、去WPS官网选在合适的版本下载：http://wps-community.org/download.html?vl=a21#download
@@ -38,3 +31,12 @@ sudo mkdir -p /usr/share/fonts/wps-office    ﻿//创建一个文件夹存放字
 sudo fc-cache -vf 
 =========================================================================================
 ## 配置git
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+
+
+
+
+
+[test](https://www.baidu.com)
