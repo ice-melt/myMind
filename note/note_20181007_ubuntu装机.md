@@ -14,27 +14,48 @@
 ![这里应该插入链接](test)
 
 ## 安装WPS
-
-	1、去WPS官网选在合适的版本下载：http://wps-community.org/download.html?vl=a21#download
-	2、下载好之后，进入安装包所在目录，执行安装：sudo dpkg -i  wps-office_10.1.0.5707~a21_amd64.deb
-	3、如果需要安装字体，还是在官网下载：http://wps-community.org/download.html?vl=fonts#download
-	4、进入安装包目录，执行安装：sudo dpkg -i wps-office-fonts_1.0_all.deb
-	---
-	LibreOffice的卸载
+- LibreOffice的卸载
 	sudo apt-get purge LibreOffice    ﻿//相较于apt-get remove, 该命令还能清除软件的配置
 	sudo apt-get autoremove    ﻿//用于清除卸载软件所依赖的包12
-	WPS的安装 
-	sudo dpkg -i wps-office.deb 
-	在运行WPS的时候,会提示”Some formula symbols might not be displayed…”,这是由于版权问题,WPS for Linux未对此类字体打包安装,需要用于在授权的情况下安装对应的字库.
+- WPS官网
+	http://wps-community.org/download.html?vl=a21#download 		//WPS 下载
+	http://wps-community.org/download.html?vl=fonts#download 	//字体 下载
+- 安装 WPS
+	sudo dpkg -i wps-office_10.1.0.5707~a21_amd64.deb
+- 安装字体
+	sudo dpkg -i wps-office-fonts_1.0_all.deb
 	sudo mkdir -p /usr/share/fonts/wps-office    ﻿//创建一个文件夹存放字库1
-	将得到的字库文件复制到上述文件夹后解压,运行指令
-	sudo fc-cache -vf 
-
-
+- issue
+	- 在运行WPS的时候,会提示”Some formula symbols might not be displayed…”,这是由于版权问题,WPS for Linux未对此类字体打包安装,需要用于在授权的情况下安装对应的字库.
+ 
 ## 配置git
 
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
+
+## Fire fox
+### 汉化
+- 确定当前浏览器版本
+	- 命令行: `firefox --version`
+	- `Help`->`About Firefox`
+- 安装 xpi 中文插件
+	- 将版本号拼入以下 URL
+	- http://ftp.mozilla.org/pub/firefox/releases/{fire-fox-version}/linux-x86_64/xpi/zh-CN.xpi
+- 地址栏输入 `about:config`
+	- 搜索 `intl.locale.requested` 并修改为 `zh-CN`
+- 参考链接
+	- [https://support.mozilla.org/zh-CN/kb/使用语言包改变Firefox界面语言]
+
+### 同步
+- 同步问题参考链接
+	- [https://support.mozilla.org/zh-CN/products/firefox/sync-and-save]
+
+### 启动时恢复页面
+- 首选项->常规->启动->恢复先前的浏览状态
+
+### 设置主页
+
+
 
 
 

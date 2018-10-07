@@ -4,7 +4,7 @@
 - 详情请查看我的[blog][blog]
 ## 目录
 Ubuntu 18.04 装机之旅
-Sublime3装机
+Sublime3 安装
 
 
 [blog]: http://ice-melt.top

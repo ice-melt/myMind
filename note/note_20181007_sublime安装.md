@@ -60,6 +60,7 @@
 
 # sublime plugins list
 
+## 常用插件
 插件名称|功能简述
 |-|-|
 SideBarEnhancements|侧栏右键功能增强
@@ -74,32 +75,20 @@ HTML-CSS-JS Prettify|HTML/CSS/JS/Vue等代码格式化
 AutoFileName|提示文件路径，快速输入文件名
 GitGutter|提示代码中插入、修改、删除的地方
 PackageResourceViewer|插件修改必备 
+Table Editor|表格格式化+自动完成
+
+
+## markdown 编辑预览
+插件名称|功能简述
+|-|-|
+Markdown Preview| 实时预览
+LiveReload|
+OmniMarkupPreviewer|
 
 ---
 
 # sublime theme list
-
-## [Boxy Theme][boxy]
-
-### Boxy Yesterday
-	"theme": "Boxy Yesterday.sublime-theme",
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
-### Boxy Tomorrow
-	"theme": "Boxy Tomorrow.sublime-theme",
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
-### Boxy Ocean
-	"theme": "Boxy Ocean.sublime-theme",
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
-### Boxy Monokai
-	"theme": "Boxy Monokai.sublime-theme",
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
-### Boxy Solarized Dark
-	"theme": "Boxy Solarized Dark.sublime-theme",
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Dark.tmTheme",
-### Boxy Solarized Light
-	"theme": "Boxy Solarized Light.sublime-theme",
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Light.tmTheme",
-
-## Material Theme
-
-[boxy](https://github.com/ihodev/sublime-boxy)
+插件名称|功能简述
+|-|-|
+Boxy Theme|
+Material Theme|
