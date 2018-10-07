@@ -1,81 +1,10 @@
-# Ubuntu 18.04 安装 sublime3
-## 安装 sublime3
-	# install the GPG key
-	wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+# sublime3 插件整理的临时文件
 
-	# Ensure apt is set up to work with https sources
-	sudo apt-get install apt-transport-https
-
-	echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-
-	sudo apt-get update
-
-	sudo apt-get install sublime-text
-
-## 解决在Ubuntu下sublime不能输入中文的问题
-	git clone https://github.com/lyfeyaj/sublime-text-imfix.git1
-
-	cd sublime-text-imfix && ./sublime-imfix 
-
-## Package Control
-- 官方网站: [https://packagecontrol.io](https://packagecontrol.io/installation)
-- ctrl+\` 后输入以下命令安装 package control
-	
-	`import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)`
-
-## 破解
-- 选择 help-->enter license
-- 授权码
-	```
-	----- BEGIN LICENSE -----
-	sgbteam
-	Single User License
-	EA7E-1153259
-	8891CBB9 F1513E4F 1A3405C1 A865D53F
-	115F202E 7B91AB2D 0D2A40ED 352B269B
-	76E84F0B CD69BFC7 59F2DFEF E267328F
-	215652A3 E88F9D8F 4C38E3BA 5B2DAAE4
-	969624E7 DC9CD4D5 717FB40C 1B9738CF
-	20B3C4F1 E917B5B3 87C38D9C ACCE7DD8
-	5F7EF854 86B9743C FADC04AA FB0DA5C0
-	F913BE58 42FEA319 F954EFDD AE881E0B
-	------ END LICENSE ------
-	```
-- 出现以下信息说明授权码过期，需要重新寻找授权码
-	`That license key has been invalidated, due to being shared.
-	Please email sales@sublimetext.com to get your license key reissued.`
-
-## 禁止自动更新
-- 设置 Preferences -> Settings-User
-- 添加 "update_check": false
----
-
-## 汉化
-- Ctrl+Shift+P 输入 pcip 选择 `Package Control：Install Package`
-- 安装 `ChineseLocalizations`
-- 使用方式
-	```
-	help--请使用主菜单的 帮助/Language 子菜单来切换语言。 目前支持 简体中文 繁体中文 日本語 德语 法语 俄语等。 
-	要换回英语不需要卸载本插件，请直接从菜单切换英文。
-	```
-
-集合插件
-SideBarEnhancements 侧栏右键功能增强
-auto-save 自动保存
- 
-
-Alignment： 自动对齐代码
-SublimeLinter 提示编写代码中存在的不规范和错误的写法
-Sublime CodeIntel代码提示和补全
-Bracket Highlighter代码匹配
-
-ConvertToUTF8，GBK编码兼容
-Emmet让编写代码变得简单
-HTML-CSS-JS Prettify HTML/CSS/JS/Vue等代码格式化
-AutoFileName提示文件路径，快速输入文件名
-GitGutter提示代码中插入、修改、删除的地方
-PackageResourceViewer，插件修改必备
-PackageResourceViewer，插件修改必备
+## 主题
+SyncedSidebarBg
+Boxy
+https://github.com/ihodev/sublime-boxy
+## 其他
 
 by roustar31、zd423 - 基于 Sublime Text 3 官方版进行修改汉化；
 破解并集成正版密钥已注册版，去自动检测升级提示；
@@ -164,3 +93,12 @@ Emmet绝对的节省时间。您可以轻松快速地编写HTML。
 --- 功能：快捷输入文件名
 简介: 编辑HTML, CSS, JS时，经常会出现缩进不对，代码行不对其的情况。装了这个插件之后，只要按下 Ctrl+Shift+h (Windows), Command+Shift+h (Mac), 你的文档就会被整理干净。
 注: 需要配置node文件路径 HTML-CSS-JS Prettify > plugin Options
+
+## 汉化
+- Ctrl+Shift+P 输入 pcip 选择 `Package Control：Install Package`
+- 安装 `ChineseLocalizations`
+- 使用方式
+	```
+	help--请使用主菜单的 帮助/Language 子菜单来切换语言。 目前支持 简体中文 繁体中文 日本語 德语 法语 俄语等。 
+	要换回英语不需要卸载本插件，请直接从菜单切换英文。
+	```
