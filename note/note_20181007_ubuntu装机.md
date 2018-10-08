@@ -55,8 +55,19 @@
 
 ### 设置主页
 
+### 常用插件
+- Octotree ： Code tree for GitHub
+- Context Search ： 
 
+### 安装flash
+	tar -zxvf flash_player_npapi_linux.x86_64.tar.gz libflashplayer.so
 
+	sudo cp libflashplayer.so /usr/lib/mozilla/plugins/
 
+https://support.mozilla.org/zh-CN/kb/安装 Flash 插件
 
 [test](https://www.baidu.com)
+
+## Required software
+
+
