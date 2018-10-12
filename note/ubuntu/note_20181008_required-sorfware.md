@@ -22,5 +22,12 @@
 3、查看虚拟机ip地址
 
 	ifconfig
+## 视频播放器VLC
+	sudo apt install vlc
+## 安装Git
+	sudo apt install git
+## 主题
 
- 
+首先安装 tweaks，使用该软件统一管理主题中的各个部分
+
+	sudo apt install gnome-tweak-tool 
