@@ -12,7 +12,7 @@
 
 ## 目录
 
-[Ubuntu 18.04 装机之旅](/learn_notes_linux/)
+[Ubuntu 18.04 装机之旅](/learn_notes_linux/ubuntu_装机之旅.md)
 
 [Sublime3](/learn_notes_tools/readme_sublime.md)
 
