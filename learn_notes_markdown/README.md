@@ -69,7 +69,7 @@
 |`~~删除线~~`|~~删除线~~|
 |`***斜粗体1***` 或 `___斜粗体2___`|***斜粗体1*** 或 ___斜粗体2___|
  
-    斜体、粗体、删除线可混合使用
+> **[Tip]**:斜体、粗体、删除线可混合使用
 
 ## 横线
 ```markdown
@@ -222,13 +222,13 @@ https://github.com/ice-melt/picture-set/raw/master/loading001.gif
 | |语法|效果|
 |---|----|-----|
 |1|`[我的站点](http://ice-melt.top "夕兮曦兮")`|[我的站点](http://ice-melt.top "夕兮曦兮")|
-|2|`[百度一下 你就知道][baidu]`|[百度一下 你就知道][baidu]|
+|2|`[百度][baidu]`|[百度][baidu]|
 
 #### 链接本仓库里的URL
 
 |语法|效果|
 |----|-----|
-|`[Markdown 参考资料](/markdown_material.md)`|[Markdown 参考资料](/markdown_material.md)|
+|`[Markdown 参考资料](markdown_material.md)`|[Markdown 参考资料](markdown_material.md)|
 
 
 #### 图片链接
@@ -275,20 +275,17 @@ https://github.com/ice-melt/picture-set/raw/master/loading001.gif
 
 ```
 > 陕西省
->
 >> 西安市
->
->>>雁塔区
+>>> 雁塔区
 ```
 > 陕西省
->
 >> 西安市
->
->>>雁塔区
+>>> 雁塔区
 
 ---
 
-> **[Tip]**:引用的区块内也可以使用其他的 Markdown 语法，包括标题、列表、代码区块等；  
+> **[Tip]**:  
+> 引用的区块内也可以使用其他的 Markdown 语法，包括标题、列表、代码区块等；  
 > 可以偷懒只在整个段落的第一行最前面加上 `>` ：
 
 # 代码高亮
@@ -367,9 +364,9 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 [markdown_titles]:https://github.com/ice-melt/picture-set/raw/master/mymind/markdown_001_titles.png
 [maarkdown_newlines]:https://github.com/ice-melt/picture-set/raw/master/mymind/markdown_002_newlines.png
 [loading]:https://github.com/ice-melt/picture-set/raw/master/loading001.gif
-[baidu]:https://www.baidu.com
+[baidu]:https://www.baidu.com "百度一下 你就知道"
 [csdn]:https://blog.csdn.net/xxliu_csdn "我的博客"
 [baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
-[cnblogs-logo]:https://github.com/ice-melt/picture-set/raw/master/icons/cnblogs.png "博客园"
+[cnblogs-logo]:https://github.com/ice-melt/picture-set/raw/master/icons/cnblogs.gif "博客园"
 [csdn-logo]:https://github.com/ice-melt/picture-set/raw/master/icons/csdn.png "我的CSDN博客"
 
