@@ -1,9 +1,10 @@
-# 相关参考链接记录
+## 链接记录
 
-### Markdown
+### 资源列表
+[free-programming-books
+](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md)
 
-[Markdown 简易入门教程](https://www.jianshu.com/p/20e82ddb37cb)
-
+[allitebooks](http://www.allitebooks.com/)
 ### 其他人的博客
 
 [http://kkpattern.github.io/](http://kkpattern.github.io/2015/05/15/Embed-Chart-in-Jekyll.html)
