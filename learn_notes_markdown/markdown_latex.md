@@ -109,7 +109,7 @@ Colors supported||||
 
 语法|效果|语法|效果|语法|效果
 -|-|-|-|-|-
-\bar{x}	|`$	\bar{x}	$`|	\acute{\eta}	|`$	\acute{\eta}	$`|	\check{\alpha}	|`$	\check{\alpha}	$`|
+\bar{x}	|$\bar{x}$|	\acute{\eta}	|`$	\acute{\eta}	$`|	\check{\alpha}	|`$	\check{\alpha}	$`|
 \grave{\eta}	|`$	\grave{\eta}	$`|	\breve{a}	|`$	\breve{a}	$`|	\ddot{y}	|`$	\ddot{y}	$`|
 \dot{x}	|`$	\dot{x}	$`|	\hat{\alpha}	|`$	\hat{\alpha}	$`|	\tilde{\iota}	|`$	\tilde{\iota}	$`|
 
