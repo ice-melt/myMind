@@ -2,6 +2,8 @@
 
 [https://support.purevpn.com/article-categories/getting-started/linux](https://support.purevpn.com/article-categories/getting-started/linux)
 
+[https://www.purevpn.com/vpn-app-for-linux](https://www.purevpn.com/vpn-app-for-linux)
+
 - how to login
 
 		purevpn  –login OR purevpn –li
