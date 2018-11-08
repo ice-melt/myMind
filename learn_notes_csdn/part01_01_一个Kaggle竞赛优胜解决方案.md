@@ -1,0 +1,11 @@
+# 相关链接整理
+
+##  一个Kaggle竞赛优胜解决方案
+
+### 任务：Avazu点击率预估竞赛
+
+- Avazu Click-Through Rate Prediction
+	- 是 Avazu 在 kaggle 上举办的广告点击率预测的比赛
+	- [https://www.kaggle.com/c/avazu-ctr-prediction](https://www.kaggle.com/c/avazu-ctr-prediction)
+	- 根据一个广告的属性预测该广告是否会被点击
+	
