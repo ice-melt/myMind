@@ -18,6 +18,11 @@
 
 ## 系统设置
 
+#### 查看系统版本 
+```bash
+cat /proc/version
+lsb_release -a
+```
 #### 更新
 ```bash
 sudo apt update
@@ -38,6 +43,13 @@ sudo passwd root
 >
 > `$`符号 是你创建的用户 没指定权限！ 
 
+#### 设置用户sudo时不用输入密码
+```bash
+sudo gedit /etc/sudoers
+# %sudo	ALL=(ALL:ALL) ALL:ALL
+# 修改为
+# %sudo	ALL=(ALL:ALL) NOPASSWD:ALL
+```
 
 #### 开机自动挂载分区
 

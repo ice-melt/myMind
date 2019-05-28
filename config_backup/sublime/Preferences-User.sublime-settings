@@ -1,0 +1,17 @@
+{
+	"color_inactive_tabs": true,
+	"color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
+	"font_size": 18,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"sidebar_no_icon": true,
+	"sidebar_row_padding_medium": true,
+	"sidebar_size_14": true,
+	"status_bar_brighter": true,
+	"statusbar_size_12": true,
+	"tabs_padding_small": true,
+	"tabs_small": true,
+	"theme": "Afterglow-orange.sublime-theme"
+}
