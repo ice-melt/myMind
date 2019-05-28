@@ -1,0 +1,9 @@
+{
+	"color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Afterglow.sublime-theme"
+}
+

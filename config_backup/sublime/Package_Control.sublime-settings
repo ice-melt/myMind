@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"channels":
+	[
+		"/home/ice-melt/.config/sublime-text-3/Installed Packages/channel_v3.json"
+	],
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ChineseLocalizations",
+		"Markdown Extended",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"Theme - Afterglow"
+	],
+	"update_check": false
+}
