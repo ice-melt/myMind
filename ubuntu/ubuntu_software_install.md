@@ -99,6 +99,14 @@ cd pycharm
 ```bash
 56ZS5PQ1RF-eyJsaWNlbnNlSWQiOiI1NlpTNVBRMVJGIiwibGljZW5zZWVOYW1lIjoi5q2j54mI5o6I5p2DIC4iLCJhc3NpZ25lZU5hbWUiOiIiLCJhc3NpZ25lZUVtYWlsIjoiIiwibGljZW5zZVJlc3RyaWN0aW9uIjoiRm9yIGVkdWNhdGlvbmFsIHVzZSBvbmx5IiwiY2hlY2tDb25jdXJyZW50VXNlIjpmYWxzZSwicHJvZHVjdHMiOlt7ImNvZGUiOiJJSSIsInBhaWRVcFRvIjoiMjAyMC0wMy0xMCJ9LHsiY29kZSI6IkFDIiwicGFpZFVwVG8iOiIyMDIwLTAzLTEwIn0seyJjb2RlIjoiRFBOIiwicGFpZFVwVG8iOiIyMDIwLTAzLTEwIn0seyJjb2RlIjoiUFMiLCJwYWlkVXBUbyI6IjIwMjAtMDMtMTAifSx7ImNvZGUiOiJHTyIsInBhaWRVcFRvIjoiMjAyMC0wMy0xMCJ9LHsiY29kZSI6IkRNIiwicGFpZFVwVG8iOiIyMDIwLTAzLTEwIn0seyJjb2RlIjoiQ0wiLCJwYWlkVXBUbyI6IjIwMjAtMDMtMTAifSx7ImNvZGUiOiJSUzAiLCJwYWlkVXBUbyI6IjIwMjAtMDMtMTAifSx7ImNvZGUiOiJSQyIsInBhaWRVcFRvIjoiMjAyMC0wMy0xMCJ9LHsiY29kZSI6IlJEIiwicGFpZFVwVG8iOiIyMDIwLTAzLTEwIn0seyJjb2RlIjoiUEMiLCJwYWlkVXBUbyI6IjIwMjAtMDMtMTAifSx7ImNvZGUiOiJSTSIsInBhaWRVcFRvIjoiMjAyMC0wMy0xMCJ9LHsiY29kZSI6IldTIiwicGFpZFVwVG8iOiIyMDIwLTAzLTEwIn0seyJjb2RlIjoiREIiLCJwYWlkVXBUbyI6IjIwMjAtMDMtMTAifSx7ImNvZGUiOiJEQyIsInBhaWRVcFRvIjoiMjAyMC0wMy0xMCJ9LHsiY29kZSI6IlJTVSIsInBhaWRVcFRvIjoiMjAyMC0wMy0xMCJ9XSwiaGFzaCI6IjEyMjkxNDk4LzAiLCJncmFjZVBlcmlvZERheXMiOjAsImF1dG9Qcm9sb25nYXRlZCI6ZmFsc2UsImlzQXV0b1Byb2xvbmdhdGVkIjpmYWxzZX0=-SYSsDcgL1WJmHnsiGaHUWbaZLPIe2oI3QiIneDtaIbh/SZOqu63G7RGudSjf3ssPb1zxroMti/bK9II1ugHz/nTjw31Uah7D0HqeaCO7Zc0q9BeHysiWmBZ+8bABs5vr25GgIa5pO7CJhL7RitXQbWpAajrMBAeZ2En3wCgNwT6D6hNmiMlhXsWgwkw2OKnyHZ2dl8yEL+oV5SW14t7bdjYGKQrYjSd4+2zc4FnaX88yLnGNO9B3U6G+BuM37pxS5MjHrkHqMTK8W3I66mIj6IB6dYXD5nvKKO1OZREBAr6LV0BqRYSbuJKFhZ8nd6YDG20GvW6leimv0rHVBFmA0w==-MIIElTCCAn2gAwIBAgIBCTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTE4MTEwMTEyMjk0NloXDTIwMTEwMjEyMjk0NlowaDELMAkGA1UEBhMCQ1oxDjAMBgNVBAgMBU51c2xlMQ8wDQYDVQQHDAZQcmFndWUxGTAXBgNVBAoMEEpldEJyYWlucyBzLnIuby4xHTAbBgNVBAMMFHByb2QzeS1mcm9tLTIwMTgxMTAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxcQkq+zdxlR2mmRYBPzGbUNdMN6OaXiXzxIWtMEkrJMO/5oUfQJbLLuMSMK0QHFmaI37WShyxZcfRCidwXjot4zmNBKnlyHodDij/78TmVqFl8nOeD5+07B8VEaIu7c3E1N+e1doC6wht4I4+IEmtsPAdoaj5WCQVQbrI8KeT8M9VcBIWX7fD0fhexfg3ZRt0xqwMcXGNp3DdJHiO0rCdU+Itv7EmtnSVq9jBG1usMSFvMowR25mju2JcPFp1+I4ZI+FqgR8gyG8oiNDyNEoAbsR3lOpI7grUYSvkB/xVy/VoklPCK2h0f0GJxFjnye8NT1PAywoyl7RmiAVRE/EKwIDAQABo4GZMIGWMAkGA1UdEwQCMAAwHQYDVR0OBBYEFGEpG9oZGcfLMGNBkY7SgHiMGgTcMEgGA1UdIwRBMD+AFKOetkhnQhI2Qb1t4Lm0oFKLl/GzoRykGjAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBggkA0myxg7KDeeEwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4ICAQAF8uc+YJOHHwOFcPzmbjcxNDuGoOUIP+2h1R75Lecswb7ru2LWWSUMtXVKQzChLNPn/72W0k+oI056tgiwuG7M49LXp4zQVlQnFmWU1wwGvVhq5R63Rpjx1zjGUhcXgayu7+9zMUW596Lbomsg8qVve6euqsrFicYkIIuUu4zYPndJwfe0YkS5nY72SHnNdbPhEnN8wcB2Kz+OIG0lih3yz5EqFhld03bGp222ZQCIghCTVL6QBNadGsiN/lWLl4JdR3lJkZzlpFdiHijoVRdWeSWqM4y0t23c92HXKrgppoSV18XMxrWVdoSM3nuMHwxGhFyde05OdDtLpCv+jlWf5REAHHA201pAU6bJSZINyHDUTB+Beo28rRXSwSh3OUIvYwKNVeoBY+KwOJ7WnuTCUq1meE6GkKc4D/cXmgpOyW/1SmBz3XjVIi/zprZ0zf3qH5mkphtg6ksjKgKjmx1cXfZAAX6wcDBNaCL+Ortep1Dh8xDUbqbBVNBL4jbiL3i3xsfNiyJgaZ5sX7i8tmStEpLbPwvHcByuf59qJhV/bZOl8KqJBETCDJcY6O2aqhTUy+9x93ThKs1GKrRPePrWPluud7ttlgtRveit/pcBrnQcXOl1rHq7ByB8CFAxNotRUYL9IF5n3wJOgkPojMy6jetQA5Ogc8Sm7RG6vg1yow==
 ```
+#### 修改host
+```bash
+sudo gedit /etc/hosts
+# 文件末尾添加
+0.0.0.0 account.jetbrains.com
+0.0.0.0 www.jetbrains.com
+```
+
 #### 设置桌面图标,并固定到收藏夹
 ```bash
 sudo touch /usr/share/applications/pycharm.desktop
@@ -123,13 +131,6 @@ Name[en_US]=pycharm
 ```
 保存退出后,即可在应用程序中找到 `pycharm` 图标，右击保存到收藏夹
 
-#### 修改host
-```bash
-sudo gedit /etc/hosts
-# 文件末尾添加
-0.0.0.0 account.jetbrains.com
-0.0.0.0 www.jetbrains.com
-```
 
 ## 安装WPS
 
@@ -168,23 +169,62 @@ sudo mkdir -p /usr/share/fonts/wps-office    ﻿
 # 将字体和符号移动到wps-office目录
 sudo cp * /usr/share/fonts/wps-office/
 ```
-
-##　apt-get 安装清单
+## Chrome浏览器
 
 ```bash
-# 网络工具
-sudo apt install net-tools
-
-# 安装 Git
-sudo apt-get install git
-
-# ssh
-sudo apt-get install openssh-server
-
+# 安装
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+# 解除密码环
+seahorse
 ```
+
+
+## apt 安装清单
+
+#### 网络工具
+```bash
+sudo apt install net-tools
+```
+
+#### nodejs
+```bash
+# nodejs npm 安装
+sudo apt install nodejs
+sudo apt install npm
+# npm 配置淘宝镜像
+npm config set registry https://registry.npm.taobao.org
+npm config get registry
+```
+
+#### 安装python
+
+```bash
+sudo apt install python
+sudo apt install python3-pip
+pip install --upgrade pip
+```
+
+#### 视频播放器VLC
+```bash
+sudo apt install vlc
+```
+ 
+#### 主题美化
+```bash
+# 安装 tweaks，使用该软件统一管理主题中的各个部分
+sudo apt install gnome-tweak-tool
+
+# https://www.cnblogs.com/lishanlei/p/9090404.html
+```
+
+## apt-get 安装清单
+
 #### Git配置
 
 ```bash
+# 安装 Git
+sudo apt-get install git
+
 # 查看版本
 git --version
 
@@ -203,46 +243,20 @@ cat ~/.ssh/id_rsa.pub
 ```
 #### ssh配置
 ```bash
+# 开启ssh server
+## 查看,出现 sshd 表示已经安装
+ps -e|grep ssh
+## 安装
+sudo apt-get install openssh-server
+## 启动
+sudo service sshstart
+
 # 安装完后查看ssh server是否启动
 sudo /etc/init.d/ssh status
 
 # 如果没有启动，使用一下命令启动：
 sudo /etc/init.d/ssh start
 ```
-
-
-## 
-seahorse
-
-
-## nodejs
-sudo apt install nodejs
-sudo apt install npm
-npm：
-npm config set registry https://registry.npm.taobao.org
-npm config get registry
-
-## apt 安装的应用 
- 
-#### 安装更新pip
-	pip install --upgrade pip
-
-
-#### FTP工具
-
-3、查看虚拟机ip地址
-
-	ifconfig
-#### 视频播放器VLC
-	sudo apt install vlc
- 
-#### 主题
-
-首先安装 tweaks，使用该软件统一管理主题中的各个部分
-
-	sudo apt install gnome-tweak-tool 
-
-
 
 ## purevpn
 
@@ -302,12 +316,18 @@ purevpn -feedback purevpn -f
 [https://www.purevpn.com/vpn-app-for-linux](https://www.purevpn.com/vpn-app-for-linux)
 
 
-## ubuntu 美化
 
-https://www.cnblogs.com/lishanlei/p/9090404.html
+## Fire fox(不用了)
+#### 安装flash
+```bash
+tar -zxvf flash_player_npapi_linux.x86_64.tar.gz libflashplayer.so
+sudo cp libflashplayer.so /usr/lib/mozilla/plugins/
+```
 
-## Fire fox
-### 汉化
+[https://support.mozilla.org/zh-CN/kb/安装 Flash 插件](https://support.mozilla.org/zh-CN/kb/安装%20Flash%20插件)
+
+#### 汉化
+
 - 确定当前浏览器版本
 	- 命令行: `firefox --version`
 	- `Help`->`About Firefox`
@@ -317,26 +337,16 @@ https://www.cnblogs.com/lishanlei/p/9090404.html
 - 地址栏输入 `about:config`
 	- 搜索 `intl.locale.requested` 并修改为 `zh-CN`
 - 参考链接
-	- [https://support.mozilla.org/zh-CN/kb/使用语言包改变Firefox界面语言]
-
-### 同步
+	- [https://support.mozilla.org/zh-CN/kb/使用语言包改变Firefox界面语言](https://support.mozilla.org/zh-CN/kb/使用语言包改变Firefox界面语言)
+```
+#### 同步
 - 同步问题参考链接
-	- [https://support.mozilla.org/zh-CN/products/firefox/sync-and-save]
+	- [https://support.mozilla.org/zh-CN/products/firefox/sync-and-save](https://support.mozilla.org/zh-CN/products/firefox/sync-and-save)
 
-### 启动时恢复页面
+#### 启动时恢复页面
 - 首选项->常规->启动->恢复先前的浏览状态
 
-### 设置主页
-
-### 常用插件
+#### 常用插件
 - Octotree ： Code tree for GitHub
 - Context Search ： 
 
-### 安装flash
-	tar -zxvf flash_player_npapi_linux.x86_64.tar.gz libflashplayer.so
-
-	sudo cp libflashplayer.so /usr/lib/mozilla/plugins/
-
-https://support.mozilla.org/zh-CN/kb/安装 Flash 插件
-
-[test](https://www.baidu.com)

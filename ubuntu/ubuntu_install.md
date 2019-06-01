@@ -8,6 +8,7 @@
 
 官网下载地址：[http://www.ubuntu.org.cn/download](http://www.ubuntu.org.cn/download)
 
+
 ## ubuntu安装
 
 使用rufus和系统镜像制作完成启动盘
@@ -130,3 +131,41 @@ sudo apt-get install vim
 `sudo gedit 文本文件`
 
 保存，退出
+
+#### 禁止锁屏
+1. 解决Ubuntu下每隔几分钟自动锁屏，需要重新输入密码的问题
+
+解决方案：
+（1）打开系统设置，找到“Brightness & Lock”（亮度和锁屏）设置并打开，
+（2）根据提示可以设置屏幕多久关闭和锁屏时间设定，一个“Never”和“OFF”即可搞定。
+#### Ubuntu设置局域网Windows共享文件Samba
+
+```bash
+# 安装 samba
+sudo apt-get install samba samba-common
+
+# 新建共享目录并设置权限
+sudo mkdir /home/share
+sudo chmod 777 /home/share
+
+# 挂载
+sudo mount -t cifs -o username=Bob,password=123456 //192.168.0.102/Share /usr/local/bin/code
+# 修改 /etc/fstab
+//192.168.1.10/SHARE /media/share cifs credentials=/home/USER/.smbcredentials,iocharset=uft8,gid=GID,udi=UID,file_mode=0777,dir_mode=0777 0 0
+
+# 设置
+sudo gedit /etc/samba/smb.conf
+
+# １．Debugging/Accounting中的Cap the size of the individual log files部分添加语句：
+security = user
+# 2. usershare allow guests = yes　后增加
+usershare owner only = false
+# 3. 末尾添加
+[myshare]
+   comment = my share directory
+   path = /home/share
+   browseable = yes
+   writable = yes
+# 4. 重启samba服务
+sudo service smbd restart
+```
