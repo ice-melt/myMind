@@ -260,6 +260,30 @@ awk [选项参数] 'pattern1 {action1} pattern2 {action2} ...' filename
 -v 赋值一个用户定义变量
 
 # 示例
+awk -F : '/^root/{print $1}' passwd
+awk -F : '/^root/{print $1","$7}' passwd
+awk -F : 'BEGIN{print "user,shell"} /^root/{print $1","$7} END{print "ice-melt,bin/"}' passwd
+awk -F : -v i=1 '{print $3+i}' passwd
 
+# 内置变量
+FILENAME 文件名
+NP 一度的记录数
+NF 浏览记录的域的个数(切割后,列的个数)
+
+awk -F : '{print FILENAME","NR","NF}' passwd
+ifconfig wlx488ad25287ba|grep "inet"|awk -F " " '{print $2}'
+awk '/^$/{print NR}' passwd
 ```
 #### sort
+将文件进行排序,并将排序结果标准输出
+```bash
+sort(选项)(参数)
+# 选项
+-n 依照参数的大小排序
+-r 以相反的顺序排序
+-t 设置排序时所用的分隔字符
+-k 指定需要排序的列
+# 参数:指定待排序的文件列表
+
+sort -t : -nrk 3 sort.sh
+```
